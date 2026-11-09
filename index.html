@@ -19,21 +19,27 @@
         <fieldset class="champ">
           <legend>Votre atelier</legend>
           <!-- Insérer ici les clones de template-atelier pour les ateliers disponibles. -->
-          <div id="liste-ateliers" class="choix"></div>
+          <div id="liste-ateliers" class="choix">
+            
+          </div>
           <p id="erreur-atelier" class="erreur" aria-live="polite"></p>
         </fieldset>
 
         <fieldset class="champ">
           <legend>Mode de participation</legend>
           <!-- Insérer ici les clones de template-mode. -->
-          <div id="liste-modes" class="choix choix-grille"></div>
+          <div id="liste-modes" class="choix choix-grille">
+
+          </div>
           <p id="erreur-mode" class="erreur" aria-live="polite"></p>
         </fieldset>
 
         <fieldset id="champ-campus" class="champ" hidden disabled>
           <legend>Votre campus</legend>
           <!-- Insérer ici les clones de template-campus. Activer ce fieldset en présentiel. -->
-          <div id="liste-campus" class="choix choix-grille"></div>
+          <div id="liste-campus" class="choix choix-grille">
+
+          </div>
           <p id="erreur-campus" class="erreur" aria-live="polite"></p>
         </fieldset>
 
@@ -51,12 +57,14 @@
           <p id="erreur-email" class="erreur" aria-live="polite"></p>
         </div>
 
-        <button type="submit">Confirmer mon inscription</button>
+        <button type="submit" id="Confirmer" >Confirmer mon inscription</button>
       </form>
 
       <section id="recapitulatif" aria-labelledby="titre-recapitulatif" hidden>
         <h2 id="titre-recapitulatif">Récapitulatif de l’inscription</h2>
-        <div id="recapitulatif-contenu" aria-live="polite"></div>
+        <div id="recapitulatif-contenu" aria-live="polite">
+          
+        </div>
       </section>
     </main>
 
